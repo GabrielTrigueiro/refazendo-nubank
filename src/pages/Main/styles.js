@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { Animated } from 'react-native';
 
 export const Container = styled.View`
   flex:1;
@@ -11,7 +12,7 @@ export const Content = styled.View`
   max-height:400px;
   z-index:5;
 `;
-export const Card = styled.View`
+export const Card = styled(Animated.View)`
   background:#fff;
   flex:1;
   border-radius:4px;
