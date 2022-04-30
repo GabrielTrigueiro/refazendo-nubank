@@ -7,7 +7,7 @@ import QRCode from 'react-native-qrcode-svg';
 
 export default function Menu(){
     return(
-        <Container >
+        <Container>
             <Code>
                 <QRCode
                     value='https://www.youtube.com/watch?v=6DsvARHM_EE'
